@@ -1,0 +1,52 @@
+body {
+    background-color: #ffd90013;
+    font-family: sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    font-size: 64px;
+    color: #2e2901;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.field {
+    padding: 30px;
+    margin: 0 5px 0 25px;
+    border: 2px solid #ffd700;
+    border-radius: 30%;
+    box-shadow: inset 0px 0px 45px -10px #ffd700;
+}
+
+.value {
+    padding: 30px;
+    font-size: 64px;
+    color: #2e2901;
+}
+
+.label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-style: italic;
+    color: #504700;
+}
+
+.dots {
+    position: relative;
+}
+
+.too-dots {
+    position: absolute;
+    transform: translateY(50%);
+    font-size: 64px;
+    color: #2e2901;
+}
