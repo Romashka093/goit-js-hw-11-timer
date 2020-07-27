@@ -9,7 +9,7 @@ const refs = {
 
 new CountdownTimer({
     selector: '#timer-1',
-    targetDate: new Date('May 29 2020'),
+    targetDate: new Date('May 29 2021'),
 });
 
 function CountdownTimer(e) {
